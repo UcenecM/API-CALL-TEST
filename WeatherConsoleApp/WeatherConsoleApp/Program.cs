@@ -7,7 +7,7 @@ class Program
 {
     static async Task Main(string[] args)
     {
-        var apiKey = "25fa78f182f946358d5120720250804"; // <-- Put your WeatherAPI key here
+        var apiKey = "API_KEY"; // <-- Put your WeatherAPI key here
         var city = "Ljubljana";      // Or any city
         var url = $"https://api.weatherapi.com/v1/forecast.json?key={apiKey}&q={city}&days=1";
 
